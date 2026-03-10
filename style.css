@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.numeroCinco img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.titulo img{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre{
+    width: auto;
+    height: auto;
+}
+
+.tresPuntos {
+    margin-left: auto;
+}
+.tresPuntos img{
+    width: 20px;
+    height: 20px;
+}
+
+.foto img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.imagenes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*iconos a la izquierda*/
+.corazon img,
+.mensaje img,
+.avion img{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; /*separacion pequeña como en instagram*/
+    object-fit: contain;
+}
+
+/*icono a la derecha*/
+.icono-guardar{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+}
+
+
+.icono-guardar img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
